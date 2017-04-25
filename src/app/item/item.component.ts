@@ -18,14 +18,20 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 export class ItemComponent implements OnInit {
 
+
+
   @Input() todoItem: any;
   @Output() remove:EventEmitter<any> = new EventEmitter();
+
+  removeItem() {
+  this.remove.emit();
+  }
 
 
   constructor() { }
 
   ngOnInit() {
   }
-  
+
 
 }
