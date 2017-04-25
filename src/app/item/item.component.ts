@@ -8,9 +8,6 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
       <button class="btn btn-red" (click)="removeItem()">
         remove
       </button>
-      <p>
-        item Works!
-      </p>
     </div>
   `,
   styleUrls: ['./item.component.css']

@@ -10,8 +10,6 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   <button class="btn-red" (click)="changeTitle(inputElement.value)">
     Save
   </button>
-  <p>The title is: {{ title }}</p>
-
   `,
   styleUrls: ['./input.component.css']
 })

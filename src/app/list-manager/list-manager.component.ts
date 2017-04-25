@@ -22,7 +22,7 @@ import { TodoListService } from '../todo-list.service';
 })
 export class ListManagerComponent implements OnInit {
 
-  private title: string = 'app works!';
+  private title: string = 'To Do List';
   private todoList;
 
   addItem(title:string) {
